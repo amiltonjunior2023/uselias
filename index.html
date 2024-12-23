@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="imagem/moda.png" type="image/x-icon">
+    <title>App - UseLias</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid mt-2">
+
+    <div id="topo">
+        <div class="texto">
+            <p class="empresa"> <img src="imagem/bikini.png" alt=""> UseLias</p>
+
+
+            <div class="typewriter">
+                
+            </div>
+
+        </div>
+    </div>
+    
+        <h1 class="mt-5"><img src="imagem/dinheiro.png"> <span class="cliente">Controle de pagamento</span></h1>
+        <label for="descricao">Cliente:</label>
+        <input type="text" id="descricao" required placeholder="Nome do cliente....">
+        <label for="valor">Valor total da venda:</label>
+        <input type="number" id="valor" required placeholder="Digite o valor total...">
+        <label for="opcoes">Forma de pagamento:</label>
+        <select id="opcoes" name="opcoes">
+            <option value="" disabled selected>Selecione uma opção:</option>
+            <option value="opcao1">Débito</option>
+            <option value="opcao2">Crédito</option>
+            <option value="opcao3">Pix</option>
+            <option value="opcao4">Dinheiro</option>
+        </select><br>
+        <label for="data">Data da cobrança:</label><br>
+        <input type="date" id="data" required placeholder="Data do pagamento..."><br>
+        
+        <div class="text-center">
+        <button onclick="adicionarItem()" type="button" class="btn btn-success">Adicionar</button>
+    </div>
+        <h2>Clientes:</h2>
+        <ul id="lista-itens"></ul>
+
+        
+        <div class="text-center">
+        <button onclick="filtrarPorData()" type="button" class="btn btn-primary"> Filtrar por Data</button>
+    
+        <button onclick="limparFiltro()" type="button" class="btn btn-warning"> Limpar Filtro</button>
+    </div>
+</div>
+    <script src="js/financas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+
+<div class="container-fluid text-center">
+    <footer>
+        <div>
+            <p class="rodape">&copy; 2024 - UseLias - Todos os direitos reservados.</p>
+        </div>
+
+    </footer>
+   
+
+</div>
+
+</html>

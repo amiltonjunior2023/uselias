@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: pink !important;
+    background-size: cover; 
+}
+.container {
+    background:white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    border-color: #BDBDBD;
+border-radius: 5px;
+box-shadow: 1rem 1rem 1rem 1rem #000000;
+}
+
+input{
+height: 30px;
+padding: 18px;
+width: 100%;
+background: #fff;
+border-color: #BDBDBD;
+border-radius: 5px;
+box-shadow: 0px 0px 9px #000000;
+font-size: 1em;
+display: inline;
+margin-top: 10px;
+padding-left: 10px;
+margin-bottom: 10px !important;
+
+
+}
+
+select {
+    
+    width: 200px;
+    padding: 8px;
+    box-shadow: 0px 0px 9px #000000;
+    font-size: 16px;
+    border: 2px solid #BDBDBD;;
+    border-radius: 5px;
+    background: #fff;
+    border-color: #BDBDBD;
+   
+    margin-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+/* Alteração ao passar o mouse */
+select:hover {
+    border-color: #ada484;
+}
+
+/* Estilo ao focar no select */
+select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ada484;
+}
+
+.remover-btn {
+    background-color: #dc3545; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remover borda */
+    border-radius: 4px; /* Adicionar borda arredondada */
+    padding: 5px 10px; /* Espaçamento interno */
+    cursor: pointer; /* Alterar cursor para indicar interatividade */
+}
+
+
+label{
+font-size: 1.5em;
+}
+input.campo{
+border: 1px solid #ada484;
+
+}
+
+input.botao{
+background: #9b9271;
+color: white;
+width: 300%;
+height: 40px;
+font-size: 1.2em;
+cursor: pointer;
+}
+
+.empresa{
+  font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+
+
+ul{
+border-radius: 20px;
+border-color: #BDBDBD;
+box-shadow: 0px 0px 9px #000000;
+
+
+}
+
+button:hover{
+background: grey ;
+color: white;
+cursor: pointer;
+
+}
+#topo{
+
+width: 100%;
+padding-right: 10px;
+
+
+}
+
+.texto{
+
+color: white;
+
+
+}
+
+h1{
+color: black!important;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif !important;
+
+align-items: center; 
+justify-content: center;
+
+}
+
+.cliente{
+    margin-left: 1rem !important;
+}
+
+input:hover{
+background: #FAFAFA;
+color: black;
+
+}
+.typewriter {
+overflow: hidden; /* Hide text overflow */
+border-right: .15em solid orange; /* Cursor effect */
+white-space: nowrap; /* Keep text in one line */
+font-size: 2em;
+}
+
+.rodape{
+    color: black !important;
+    font-size: 1rem !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    padding-top:10rem !important; 
+}
+
+.remover-btn {
+    background-color: #ff4d4d; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor em formato de mãozinha */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 5px; /* Margem ao redor do botão */
+    transition: background-color 0.3s; /* Animação de transição */
+}
+
+.remover-btn:hover {
+    background-color: #e60000; /* Cor de fundo ao passar o mouse */
+}
